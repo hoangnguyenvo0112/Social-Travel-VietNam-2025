@@ -1,0 +1,226 @@
+:root {
+  /* --main-bg: #e9f0ff; */
+
+  --main-bg: #f9f9f9;
+  --header-bg: #ffffff;
+  --side-bar-bg: #2a213a;
+  --second-bg: #ffffff;
+  --main-text: #3633a8;
+  --danger-bg: #e26257;
+  --success-bg: #5172eb;
+  --button-text: #fff;
+  --box-shadow: 0 4px 24px rgba(0,0,0,.08);
+  --border: 1px solid rgba(0,0,0,.1);
+  --second-text: #AAAAAA;
+  --inner-text: #333
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#theme {
+  display: none;
+}
+#theme:checked ~ * {
+  filter: invert(1);
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--main-bg);
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* -------- AUTH ---------- */
+@import url("./auth.css");
+
+/* -------- LOADING ---------- */
+@import url("./loading.css");
+
+/* -------- Header ---------- */
+@import url("./header.css");
+
+/* -------- Avatar ---------- */
+@import url("./avatar.css");
+
+/* -------- TagUser ---------- */
+@import url("./tag_user.css");
+
+/* -------- Profile ---------- */
+@import url("./profile.css");
+
+/* -------- Home ---------- */
+@import url("./home.css");
+
+/* -------- Status Modal ---------- */
+@import url("./status_modal.css");
+
+/* -------- Comments ---------- */
+@import url("./comments.css");
+
+/* -------- Post Thumb ---------- */
+@import url("./post_thumb.css");
+
+/* -------- Message---------- */
+@import url("./message.css");
+
+/* -------- Icons---------- */
+@import url("./icons.css");
+
+/* -------- Call Modal---------- */
+@import url("./call_modal.css");
+
+/* --------- Responsive ------ */
+@media (max-width: 1360px) {
+  .header .navbar .logo {
+    display: none;
+  }
+  .home_right {
+    width: 30%;
+  }
+  .home_content {
+    width: 70%;
+  }
+  .home_left {
+    display: none;
+  }
+}
+@media (max-width: 780px) {
+  .home_left {
+    display: none;
+  }
+  .home_right {
+    display: none;
+  }
+  .home_content {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .header {
+    height: 100px;
+  }
+  .header .menu {
+    width: 100%;
+    height: 40px;
+  }
+  .header .menu .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header .search_form {
+    min-width: 200px;
+    width: 100%;
+  }
+  .header .search_form #search {
+    min-width: 200px;
+    width: 100%;
+  }
+
+  .header .logo {
+    margin: auto;
+  }
+  .header .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .message {
+    height: calc(100vh - 100px);
+    margin-top: 0;
+  }
+  .right_mess {
+    align-items: center;
+    height: calc(100vh - 100px);
+  }
+  .left_mess {
+    width: fit-content;
+    height: fit-content;
+  }
+  .left_mess .message_header {
+    display: none;
+  }
+  .username_leftSide_mess {
+    display: none;
+  }
+  .dot_active {
+    position: absolute;
+    right: 8px;
+    margin-top: 32px;
+  }
+  .status {
+    padding: 20px 10px;
+  }
+}
+
+.mode {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.color-Blue {
+  color: #6972a6;
+}
+.color-White {
+  color: #fff;
+}
+.color-Black {
+  color: #000;
+}
+.color-Blue {
+  color: #0184e0;
+}
+.bg-Blue {
+  background-color: #0184e0;
+}
+.bg-White {
+  background-color: #fff;
+}
+
+.bg-Purple {
+  background-color: #9b4de0;
+}
+.color-Purple {
+  color: #9b4de0;
+}

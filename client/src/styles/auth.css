@@ -1,0 +1,49 @@
+.auth_page {
+  width: 100%;
+  min-height: 100vh;
+  background: #1F2A40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth_page form {
+  background: #ffffff1a;
+  /* max-width: 400px; */
+  width: 100%;
+  border-radius: 6px;
+  padding: 25px 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.auth_page form .pass {
+  position: relative;
+}
+
+.auth_page form .pass small {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.btn-login,
+.btn-register {
+  display: inline-block;
+  width: 100%;
+  background-color: #5172eb;
+  border-radius: 10px;
+}
+.btn-register:hover,
+.btn-login:hover {
+}
+.logo-img {
+  max-height: 250px;
+}
+.header-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

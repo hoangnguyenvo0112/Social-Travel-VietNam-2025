@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff3a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #812a2f;
+    border-radius: 20px;
+  }
+  .truncate-lines-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Number of lines to display */
+  }

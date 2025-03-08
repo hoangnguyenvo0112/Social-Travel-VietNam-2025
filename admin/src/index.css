@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+:root{
+  --main-bg : #ffffff;
+  --second-bg :#fafafb;
+  --txt-color : #455560;
+  --txt-white : #ffffff;
+  --main-color: #349eff;
+  --second-color : #62b4ff;
+  --box-shadow : rgba(149,157,165,0.2) 0px 8px 24px;
+  
+  --sidebar-with : 220px;
+  --border-radius : 15px;
+  --topnav-height :110px;
+  --trasition-cubic : cubic-bezier(0.175,0.885,0.32,1.275);
+ 
+}
+.content {
+  flex:1;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.app {
+  display: flex;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+* :focus {
+  outline: none;
+}
+
+body {
+  font-family: "Roboto",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.7 px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+a:hover {
+  color :var(--main-color);
+}
+button{
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  color: var(--txt-color);
+}
+ul{
+  list-style-type: none;
+
+}
+input{
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff3a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #812a2f;
+  border-radius: 20px;
+}
+
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  html, body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+@media print {
+  .page-break {
+    margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+  }
+  .hide-on-print {
+    display: none;
+  }
+  .full-on-print {
+    width: 100%;
+  }
+  .nivo-chart {
+    width: 100%; /* Adjust the width as needed for printing */
+    height: auto !important;
+    /* Other print-specific styles */
+  }
+}
+
+@page {
+  size: auto;
+  margin: 20mm;
+}

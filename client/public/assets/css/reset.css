@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --height-header: 74px;
+  --light-black: rgba(0, 0, 0, 0.6);
+  --border: 1px solid #e0e0e0;
+  --text-grey: #5a5a5a;
+  --text-white: #fff;
+  --bg-color: #fff;
+  --font-family: "Inter", sans-serif;
+  --font-family-sc: "Open Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font-family);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+input {
+  padding: 0;
+  margin: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+button {
+  cursor: pointer;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+input[type="text"],
+input[type="password"] {
+  display: block;
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+img {
+  object-fit: cover;
+}

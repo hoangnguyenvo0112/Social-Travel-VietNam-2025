@@ -1,0 +1,234 @@
+.fs-14 {
+  font-size: 14px;
+}
+.width-55 {
+  width: 55%;
+}
+.width-60 {
+  width: 60%;
+}
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+.height-100 {
+  height: 100%;
+}
+.padding-10 {
+  padding: 10px;
+}
+.mg-right-20 {
+  margin-right: 20px;
+}
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+.mg-bottom-15 {
+  margin-bottom: 15px;
+}
+.mg-bottom-20 {
+  margin-bottom: 20px;
+}
+.mg-bottom-23 {
+  margin-bottom: 23px;
+}
+.mg-bottom-25 {
+  margin-bottom: 25px;
+}
+.mg-bottom-40 {
+  margin-bottom: 40px;
+}
+.mg-bottom-50 {
+  margin-bottom: 50px;
+}
+.mg-bottom-60 {
+  margin-bottom: 60px;
+}
+.mg-top-5 {
+  margin-top: 5px;
+}
+.mg-top-10 {
+  margin-top: 10px;
+}
+.mg-top-37 {
+  margin-top: 37px;
+}
+.mg-bottom-70 {
+  margin-bottom: 70px;
+}
+
+.form-header {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  font-style: normal;
+  color: #344054;
+}
+.form-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.button-enabled-large {
+  height: 44px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500px;
+  border-radius: 8px;
+  background: #0163b3;
+
+  width: 100%;
+  max-width: 100%;
+  border: none;
+}
+.button-enabled-large:disabled {
+  height: 44px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500px;
+  border-radius: 8px;
+  background: #e6e6e6;
+  color: #adadad;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  cursor: auto;
+}
+.button-enabled-small {
+  padding: 9px 12px;
+  font-size: 16px;
+  font-weight: 500px;
+  border-radius: 8px;
+  background: #0074c9;
+  color: #ffffff;
+  border: none;
+}
+.button-enabled-small:disabled {
+  padding: 9px 12px;
+  font-size: 16px;
+  font-weight: 500px;
+  border-radius: 8px;
+  background: #e6e6e6;
+  color: #adadad;
+  border: none;
+  cursor: auto;
+}
+
+.button-focused-large {
+  border: 2px solid #0163b2;
+  border-radius: 8px;
+  width: 100%;
+  height: 44px;
+}
+.button-enabled-large > *,
+.button-focused-large > * {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button-focused-large > * {
+  color: #0163b3;
+}
+.button-emphase {
+  color: #0163b3;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 700px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button-emphase > * {
+  font-weight: bold;
+  line-height: 22px;
+  font-size: 16px;
+}
+.button-emphase:disabled {
+  color: #adadad;
+  cursor: auto;
+}
+.form-item-remember {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px;
+}
+.form-item-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 14px;
+  background-color: #fff;
+}
+.form-item-input > input[type="text"],
+input[type="password"] {
+  line-height: 24px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+.button-close-icon {
+  background-image: url("../../assets/images/icon/close.png");
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+.button-hide-icon {
+  background-image: url("../../assets/images/icon/hide_icon.png");
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+.button-show-icon {
+  background-image: url("../../assets/images/icon/show.png");
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+.form-item.error > label {
+  color: #c62828;
+}
+.form-item.error > div {
+  border: 2px solid #c62828;
+  border-radius: 8px;
+}
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: safe center;
+}
+.flex-center-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text-align-center {
+  text-align: center;
+}
+.btn-icon {
+  cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
